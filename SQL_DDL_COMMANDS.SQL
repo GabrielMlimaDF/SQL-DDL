@@ -1,0 +1,6 @@
+CREATE TABLE aluno(
+    id INT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    CPF VARCHAR(11) NOT NULL,
+    email VARCHAR(100) UNIQUE 
+);
